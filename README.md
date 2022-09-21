@@ -6,7 +6,7 @@
 
 ### What are we trying to achieve?
 
-We managed to get YOLOv7 working (using a Pytorch framework) with an NVIDIA GPU (RTX 3060) for training and inferencing on a Windows 11 OS. We used Roboflow to assist in collating the data into train, test and validation folders. We used Ananconda to create a seperate environment to manage all our depedencies
+We managed to get YOLOv7 working (using a Pytorch framework) with an NVIDIA GPU (RTX 3060) for training and inferencing on a Windows 11 OS. We used Roboflow to assist in collating the data into train, test and validation folders. We used Ananconda to create a seperate environment to manage all our depedencies. We also managed to get inferencing working on a stereo camera (ZED camera) with bounding boxes on both the RGB and Depth image to get distance of objects of interest
 
 ### Contents
 
