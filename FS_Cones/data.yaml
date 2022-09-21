@@ -1,0 +1,5 @@
+train: C:\Users\arjun\OneDrive\University\Computer Vision Projects\Object Detection\YOLOv7_test\yolov7\FS_Cones\train\images
+val: C:\Users\arjun\OneDrive\University\Computer Vision Projects\Object Detection\YOLOv7_test\yolov7\FS_Cones\valid\images
+
+nc: 4
+names: ['Cones_big', 'Cones_small_blue', 'Cones_small_orange', 'Cones_small_yellow']
