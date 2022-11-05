@@ -158,7 +158,7 @@ Simply run this command in your anaconda terminal
 Make sure to edit the --data [custom dataset folder name]/data.yaml
 
 ```bash
-python [train.py](http://train.py/) --device 0 --batch-size 8 --data FS_Cones/data.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights '' --hyp data/hyp.scratch.p5.yaml --epochs 50
+python train.py --device 0 --batch-size 8 --data FS_Cones/data.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights '' --hyp data/hyp.scratch.p5.yaml --epochs 50
 ```
 
 Your trained model should appear in runs\train\exp\weights
